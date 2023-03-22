@@ -23,14 +23,10 @@ JOIN inventory i ON p.pid = i.pid;
 -- 6. How many vendors does the company have?
 SELECT COUNT(*) FROM vendors;
 
--- 7. 
-SELECT vname, address, contact
-FROM vendors;
-
--- 8. How many orders has the company received?
+-- 7. How many orders has the company received?
 SELECT COUNT(*) as order_count FROM orders;
 
--- 9. What is the total quantity of products ordered by each vendor?
+-- 8. What is the total quantity of products ordered by each vendor?
 SELECT vname, SUM(quantity) AS total_quantity
 FROM orders o
 JOIN items i ON o.order_id = i.order_id
