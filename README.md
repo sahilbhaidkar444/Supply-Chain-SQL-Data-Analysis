@@ -1,6 +1,11 @@
 # Supply Chain SQL Data Analysis Project
 **The Supply Chain SQL Data Analysis Project is a demonstration of my SQL skills in analyzing a supply chain database. The database contains information about products, inventory, vendors, and orders.**
 
+## Table of Content
+- [Dataset Overview](#dataset-overview)
+- [Analysis Questions](#analysis-questions)
+- [Conclusion](#conclusion)
+
 # Dataset Overview
 The dataset used in this project contains the following tables:<br>
 **products**: contains information about the products, such as product name, price, and SKU.<br><br>
